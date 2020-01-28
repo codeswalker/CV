@@ -1,0 +1,179 @@
+* {margin: 0;padding: 0;}
+
+body{font-family: 'Montserrat', sans-serif;
+background-image: url("background.jpg");
+}
+
+#page {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    
+}
+#container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+    word-wrap: break-word;
+  column-gap: 3em;
+  row-gap: 1em;
+
+  }
+.header{
+  margin-top: 25px;
+color:black;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.dim{
+    font-size: 15px;
+    padding-top: 0.5rem;
+    color: grey;
+    
+    
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-color: blue;
+}
+
+.dp{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+li {
+    
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+li:last-child {
+ margin-bottom: 0px;
+}
+
+.contact>ul {
+  
+  padding: 1px;  
+  padding-left: 20px;
+}
+ 
+.contact span  {
+  font-size:12px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-top:10px; 
+  padding-left:10px; 
+  display:inline-block;
+  color: grey;
+}
+
+.job>h2{
+  font-size: 15px;
+  font-style:normal;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.job>h3{
+  font-size: 13px;
+  font-style:normal;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #bbb;
+}
+.job>h4{
+  font-size: 12px;
+  font-style: italic;
+  font-weight:normal;
+  padding-top: 10px;
+  float: inline-end;
+  color:black;
+}
+.job>ul>li::before{
+  
+  content: "\2022"; 
+  color: blue; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+
+}
+
+.job li:last-child {
+  margin-bottom: 15px;
+ }
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color:blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotempty {
+  height: 15px;
+  width: 15px;
+  background-color:lightgray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.skills>h2{
+font-size: 15px;
+padding-bottom: 10px;
+}
+.skills li:first-child{
+  margin-top: 10px;;
+  padding-top: 20px;
+}
+.skills>ul>li{
+  font-weight: normal; 
+  margin-left: -1em;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.info li:first-child{
+  margin-top: 30px;;
+  padding-top: 20px;
+}
+.info>ul>li{
+  font-weight: normal; 
+  margin-left: -1em;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.box1>h4{
+font-size:14px;
+}
+
+.box1>p{
+  padding:5px 0px 5px 0px;
+  font-size:12px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color: #bbb;
+}
+
+.box1>span{
+  display:inline-block;
+  color:white; 
+  font-size: 12px;
+  background-color:blue;
+  background-size: 20px 20px;
+  background-repeat:no-repeat;
+  background-position:2px;
+  padding: 5px;
+  border-radius: 5px 5px 5px;
+  border: 1px solid white;
+  padding-left: 25px;
+  position:relative;
+}
